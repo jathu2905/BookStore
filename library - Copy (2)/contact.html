@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store - Contact Us</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2><span class="book">Book</span><span class="STORE">Store</span></h2>
+            </div>
+            <ul class="navmenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="categories.html" class="nav-link">Categories</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+                <li><a href="login.html" class="nav-link">Login</a></li>
+              
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-us" id="contactus">
+        <h2>Contact Us</h2>
+        <form action="submit_contact.php" method="post" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.3424591242483!2d80.02107167339088!3d9.651751290436556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe56b963ffa9ff%3A0x3cd84b69fd4e0cb0!2z4K6J4K6v4K6w4K-NIOCupOCviuCutOCuv-CuqOCvgeCun-CvjeCuquCuteCuv-Cur-CusuCvjSDgrqjgrr_grrHgr4HgrrXgrqngrq7gr40sIOCur-CuvuCutOCvjeCuquCvjeCuquCuvuCuo-CuruCvjQ!5e0!3m2!1sta!2slk!4v1730210914492!5m2!1sta!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Book Store</h3>
+            <p>Contact us: info@bookstore.com</p>
+            <ul class="socials">
+                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
